@@ -1,3 +1,11 @@
 import password_checker as checker
 
-checker.check(['123456','111','donepass','wjnhwwnhww','123Wjnhwwnhww!','!!!!!!']);
+f = open('./dict.txt','r')
+
+list = []
+i = 1
+while i < 5:
+    i+=1
+    list.append(f.readline())
+
+print(list)

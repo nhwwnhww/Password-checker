@@ -34,4 +34,3 @@ def check(args):
         else:
             print(f'Your {password} was not found in pwned database. It\'s was not pwned')
     return 'Done'
-
